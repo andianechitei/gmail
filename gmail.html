@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./gmail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+            integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="./script.js" type="text/javascript"></script>
+    <title>https://gmail.google.com</title>
+</head>
+<body>
+<div class="main">
+    <div class="sidebar-left-2">
+        <header>
+            <div class="burger-btn">
+                <img src="./image/menu-btn.svg" alt="Menu">
+            </div>
+            <a href="https://mail.google.com/">
+                <div class="logo">
+                    <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r5.png"
+                         alt="Gmail logo"
+                         style="width:109px; height:40px"/>
+                </div>
+            </a>
+        </header>
+        <main>
+            <button class="compose-button" id="compose-button">
+                <img src="./image/pen.svg" alt=""/>
+                Scrie
+            </button>
+            <div class="info">
+                <div data-active-emails="inbox__emails" class="option option-inbox">
+                    <img src="./image/inbox.svg" alt="Inbox"/>
+                    <a href="#">Mesaje primite</a>
+                    <span>26</span>
+                </div>
+                <div data-active-emails="starred__emails" class="option option-star">
+                    <img src="./image/star.svg" alt="Starred"/>
+                    <a href="#">Cu stea</a>`
+                    <span>11</span>
+                </div>
+                <div data-active-emails="postponed__emails" class="option option-timer">
+                    <img src="./image/timer.svg" alt="Timer"/>
+                    <a href="#">Amânate</a>
+                    <span>3</span>
+                </div>
+                <div data-active-emails="sent__emails" class="option option-sent">
+                    <img src="./image/sent.svg" alt="sent"/>
+                    <a href="#">Trimise</a>
+                    <span>+99</span>
+                </div>
+                <div data-active-emails="unfinished__emails" class="option option-document">
+                    <img src="./image/document.svg" alt="Inbox"/>
+                    <a href="#">Mesaje nefinalizate</a>
+                    <span></span>
+                </div>
+                <div data-tool-emails="multiple__tasks" class="option option-multi-options">
+                    <img src="./image/arrow-down.svg" alt="arrow-key"/>
+                    <a href="#">Mai multe</a>
+                </div>
+                <div class="option">
+                    <img src="./image/important.svg" alt="Important"/>
+                    <a href="#">Importante</a>
+                </div>
+                <div class="option">
+                    <img src="./image/chat.svg" alt="Alternative"/>
+                    <a href="#">Chaturi</a>
+                </div>
+                <div class="option">
+                    <img src="./image/schedule_chat_send.svg" alt="Alternative"/>
+                    <a href="#">Programate</a>
+                </div>
+                <div class="option">
+                    <img src="./image/all-chats.svg" alt="Alternative"/>
+                    <a href="#">Toate mesajele</a>
+                </div>
+                <div class="option">
+                    <img src="./image/error_spam.svg" alt="Alternative"/>
+                    <a href="#">Spam</a>
+                </div>
+                <div class="option">
+                    <img src="./image/bin.svg" alt="Alternative"/>
+                    <a href="#">Cos de gunoi</a>
+                </div>
+                <div class="labels">
+                    <span>Etichete</span>
+                    <img class="after" src="./image/add-plus.svg" alt="Add"/>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="central-content-2">
+        <header>
+            <div class="search-box">
+                <img class="search-btn" src="./image/search-btn.svg" alt="Search"/>
+                <input type="text" placeholder="Caută în e-mailuri"/>
+                <img class="options-btn" src="./image/alt-options.svg" alt="Options"/>
+            </div>
+            <div class="empty-space"></div>
+            <div class="nav-buttons">
+                <a href="#" class="assistance-btn">
+                    <img src="./image/assistance-2.svg" alt=""/>
+                </a>
+                <a href="#" class="settings-btn">
+                    <img src="./image/settings-light.svg" alt=""/>
+                </a>
+                <a href="#" class="aplications-btn">
+                    <img src="./image/grid.svg" alt=""/>
+                </a>
+            </div>
+        </header>
+        <main>
+            <div class="email-options">
+                <div class="checkbox">
+                    <div class="check-all">
+                        <img src="./image/checkbox.svg" alt="">
+                    </div>
+                    <div class="show-select-category">
+                        <img src="./image/down.svg" alt="">
+                    </div>
+                </div>
+                <div class="refresh">
+                    <img src="./image/refresh.svg" alt="">
+                </div>
+                <div class="category-options">
+                    <img src="./image/options.svg" alt="">
+                </div>
+                <div class="empty-space"></div>
+                <div class="emails-count">
+                    1-32 din 32
+                </div>
+                <div class="previous-emails">
+                    &lt;
+                </div>
+                <div class="next-emails">
+                    &gt;
+                </div>
+            </div>
+            <div class="email-category-tabs">
+                <div data-active-emails="email__main" class="email-category-tab">
+                    <img src="./image/inbox.svg" alt="">
+                    <span>Principale</span>
+                </div>
+                <div data-active-emails="email__offers" class="email-category-tab">
+                    <img src="./image/tag.svg" alt="">
+                    <span>Oferte</span>
+                </div>
+                <div data-active-emails="email__social" class="email-category-tab">
+                    <img src="./image/users.svg" alt="">
+                    <span>
+                        Retele sociale <br/>
+                        <span class="social-network">Youtube</span>
+                    </span>
+                </div>
+            </div>
+            <div class="emails-rows" id="emails-rows">
+                <div class="email-row email__main starred__emails">
+                    <div class="sender">
+                        <div class="email-checkbox">
+                            <img class="empty-checkbox" src="./image/checkbox.svg"/>
+                            <img class="solid-checkbox" src="./image/square-check.svg"/>
+                        </div>
+                        <div class="email-star">
+                            <img class="empty-star" src="./image/star.svg"/>
+                            <img class="solid-star" src="./image/solid-star.svg"/>
+                        </div>
+                        <span class="sender-name">
+                                Google meet
+                        </span>
+                    </div>
+                    <div class="emails">
+                        <div class="email">
+                                <span>
+                                    <b>Meeting invitation</b>
+                                </span>
+                            <span>-</span>
+                            <span>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, officiis. <br/>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="date-received">
+                        <span>6 mai <br/></span>
+                    </div>
+                </div>
+                <div class="email-row email__offers starred__emails">
+                    <div class="sender">
+                        <div class="email-checkbox">
+                            <img class="empty-checkbox" src="./image/checkbox.svg"/>
+                            <img class="solid-checkbox" src="./image/square-check.svg"/>
+                        </div>
+                        <div class="email-star">
+                            <img class="empty-star" src="./image/star.svg"/>
+                            <img class="solid-star" src="./image/solid-star.svg"/>
+                        </div>
+                        <span class="sender-name">
+                                Ebay
+                        </span>
+                    </div>
+                    <div class="emails">
+                        <div class="email">
+                                <span>
+                                    <b>Ebay login</b>
+                                </span>
+                            <span>-</span>
+                            <span>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, officiis. <br/>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="date-received">
+                        <span>6 mai <br/></span>
+                    </div>
+                </div>
+                <div class="email-row email-row-read email__offers inbox__emails">
+                    <div class="sender">
+                        <div class="email-checkbox">
+                            <img class="empty-checkbox" src="./image/checkbox.svg"/>
+                            <img class="solid-checkbox" src="./image/square-check.svg"/>
+                        </div>
+                        <div class="email-star">
+                            <img class="empty-star" src="./image/star.svg"/>
+                            <img class="solid-star" src="./image/solid-star.svg"/>
+                        </div>
+                        <span class="sender-name">
+                            Amazon
+                        </span>
+                    </div>
+                    <div class="emails">
+                        <div class="email">
+                                <span>
+                                    <b>Amazon delivery notification</b>
+                                </span>
+                            <span>-</span>
+                            <span>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, officiis. <br/>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="date-received">
+                        <span>6 mai <br/></span>
+                    </div>
+                </div>
+                <div class="email-row email-row-read email__social inbox__emails">
+                    <div class="sender">
+                        <div class="email-checkbox">
+                            <img class="empty-checkbox" src="./image/checkbox.svg"/>
+                            <img class="solid-checkbox" src="./image/square-check.svg"/>
+                        </div>
+                        <div class="email-star">
+                            <img class="empty-star" src="./image/star.svg"/>
+                            <img class="solid-star" src="./image/solid-star.svg"/>
+                        </div>
+                        <span class="sender-name">
+                            Facebook
+                        </span>
+                    </div>
+                    <div class="emails">
+                        <div class="email">
+                                <span>
+                                    <b>Facebook Notification</b>
+                                </span>
+                            <span>-</span>
+                            <span>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, officiis. <br/>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="date-received">
+                        6 mai
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="sidebar-right-2">
+        <header>
+            <div class="nav-buttons">
+                <a href="#" class="profile-btn">
+                    <img src="./image/shaggy-icon.svg" alt="Profile">
+                </a>
+            </div>
+        </header>
+        <main>
+            <div id="sidebar-right">
+                <ul class="data-guest">
+                    <li>
+                        <a href="#">
+                            <img src="./image/calendar.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./image/assets.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./image/tasks.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./image/user.svg" alt="">
+                        </a>
+                    </li>
+                    <div class="empty-spaced">
+                        <div class="line-obj"></div>
+                    </div>
+                    <li>
+                        <a href="#">
+                            <img src="./image/add-plus.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hide-panel">
+                <button id="hide-panel" type="button">&gt</button>
+            </div>
+        </main>
+    </div>
+</div>
+</body>
+</html>
